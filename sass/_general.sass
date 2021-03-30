@@ -1,0 +1,313 @@
+ul, h1
+	margin: 0
+	padding: 0
+
+.container
+	max-width: 1210px
+	margin: 0 auto
+	padding: 0 15px
+	position: relative
+
+.header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	flex-wrap: wrap
+	padding-top: 53px
+	margin-bottom: 117px
+	&_logo
+		display: flex
+		align-items: center
+		justify-content: space-between
+		&-pic
+			margin-right: 25px
+		&-txt
+			font-weight: 700
+			font-size: 24px
+			line-height: 28px
+			color: #202020
+	&_nav
+		list-style-type: none
+		display: flex
+		&_item
+			margin-right: 27px
+			&:last-child
+				margin-right: 0
+			a
+				display: inline-block
+				padding: 5px
+				text-decoration: none
+				font-weight: bold
+				font-size: 14px
+				line-height: 16px
+				color: #202020
+				transition: 0.3s all linear
+				&:hover
+					background: #5528FF
+					border-radius: 5px
+					color: #fff
+				
+.info
+	padding-bottom: 100px
+	&_title
+		font-weight: 700
+		font-size: 57px
+		line-height: 65px
+		color: #202020
+		margin-bottom: 35px
+	&_descr
+		max-width: 741px
+
+		font-weight: 400
+		font-size: 32px
+		line-height: 51px
+		color: #4F4F4F
+		margin: 0 0 70px 0
+	&_btn
+		background: #5528FF
+		border-radius: 10px
+		padding: 16px 58px 16px 58px
+
+		font-weight: 400
+		font-size: 24px
+		line-height: 28px
+		color: #FFFFFF
+		text-decoration: none
+		transition: 0.5s all linear
+		&:hover
+			opacity: .7
+
+.services
+	padding: 100px 0 100px 0
+	border-top: 1px solid #C2C2C2
+	&_wrapper
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-around
+		flex: 0 1 50%
+	&_item
+		display: flex
+		flex-wrap: wrap
+		position: relative
+		&:nth-child(1)
+			margin-bottom: 82px
+			&:before
+				content: ''
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				left: 28px
+				width: 34px
+				height: 60px
+				background: url('../img/smartphone.svg') center (center / cover) no-repeat
+		&:nth-child(2)
+			margin-bottom: 82px
+			&:before
+				content: ''
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				left: 0
+				width: 80px
+				height: 60px
+				background: url('../img/monitor.svg') center (center / cover) no-repeat
+		&:nth-child(3)
+			&:before
+				content: ''
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				left: 5px
+				width: 80px
+				height: 60px
+				background: url('../img/design.svg') center (center / cover) no-repeat
+		&:nth-child(4)
+			&:before
+				content: ''
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				left: 17px
+				width: 46px
+				height: 60px
+				background: url('../img/test.svg') center (center / cover) no-repeat
+		&-txt
+			padding-left: 129px
+		&-title
+			font-weight: 400
+			font-size: 28px
+			line-height: 32px
+			margin: 0 0 17px 0
+		&-descr
+			font-weight: 400
+			font-size: 14px
+			line-height: 16px
+			color: #B2B2B2
+			max-width: 300px
+
+.title
+	position: absolute
+	font-weight: 300
+	font-size: 14px
+	line-height: 16px
+	text-align: center
+	color: #C2C2C2
+	text-transform: uppercase
+	background: #fff
+	width: 150px
+	z-index: 5
+	left: 0
+	&-services
+		top: -109px
+	&-clients
+		top: -60px
+	&-team
+		top: -109px
+		
+
+.clients
+	padding: 53px 0 111px 0
+	border-top: 1px solid #C2C2C2
+	&_wrapper
+		display: flex
+		flex-wrap: wrap
+	&_item
+		width: 25%
+		height: 83px
+		&:nth-child(1)
+			background-image: url('../img/logo-lightspeed.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(2)
+			background-image: url('../img/logo-trvl.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(3)
+			background-image: url('../img/logo-spider-strategies.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(4)
+			background-image: url('../img/logo-tripadvisor.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(5)
+			background-image: url('../img/logo-shutterfly.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(6)
+			background-image: url('../img/logo-decos.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(7)
+			background-image: url('../img/logo-tiqets.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(8)
+			background-image: url('../img/logo-hotelchamp.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(9)
+			background-image: url('../img/logo-flitsmeister.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(10)
+			background-image: url('../img/logo-sap.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(11)
+			background-image: url('../img/logo-redkix.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:nth-child(12)
+			background-image: url('../img/logo-nos.svg')
+			background-repeat: no-repeat
+			background-position-x: center
+			background-position-y: center
+		&:hover
+			cursor: pointer
+			opacity: 0.7
+
+.team
+	padding: 100px 0 100px 0
+	height: auto
+	border-top: 1px solid #C2C2C2
+	&_wrapper
+		display: flex
+		flex-wrap: wrap
+	&_item
+		width: 33.33333%
+		display: flex
+		align-items: center
+		margin-bottom: 60px
+		&:nth-child(7)
+			margin-bottom: 0
+		&:nth-child(8)
+			margin-bottom: 0
+		&:nth-child(9)
+			margin-bottom: 0				
+		&-pic
+			margin-right: 35px
+		&-title
+			font-weight: 700
+			font-size: 28px
+			line-height: 32px
+			color: #202020
+			margin-bottom: 11px
+		&-descr
+			font-weight: 400
+			font-size: 14px
+			line-height: 16px
+			color: #B2B2B2
+
+.footer
+	padding: 20px 0
+	background: #F7F7F7
+	&_wrapper
+		display: flex
+		align-items: center
+		justify-content: space-between
+
+.fab
+	margin-right: 40px
+	color: #B2B2B2
+	font-size: 24px
+	line-height: 28px
+	transition: 0.3s all linear
+	&:last-child
+		margin-right: 0
+	&:hover
+		color: #000
+
+
+
+			
+	
+
+				
+			
+			
+		
+				
+			
+
+
+		
+
+
+
+	
+		
+			
+	
+		
